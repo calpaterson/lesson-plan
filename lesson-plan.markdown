@@ -19,11 +19,12 @@ Plan
 
 1. Get a few children (5) to hold a few of the lengths of string.
    Take care to ensure that not all children are connected and that
-   there is some variation in the lengths of string
+   there is some variation in the lengths of string.
 
 1. Tell the children that they are going to pretend to be a map of
-   cities.  You are running a delivery company, and you have to
-   deliver a box between Child A and Child D.
+   cities.  The children will represent the cities and the string will
+   represent the roads between the cities.  You are running a delivery
+   company, and you have to deliver a box between Child A and Child D.
 
 1. Pick three children and get them to work out the shortest route
    between them.  Take the van along this route.  Do not use any
@@ -40,14 +41,15 @@ Plan
 
 1. Talk about wanting to find the shortest route as quickly as
    possible.  Discuss how long it would take to try every possible
-   path.  Discuss what the chances are that doing some random routes
-   gets you the shortest route.
+   path.  Discuss what the chances are that doing some (say, 10)
+   random routes gets you the shortest route.
 
 1. Introduce a new method for finding the shortest route
        1. Begin at the starting child and give him the yellow label "0"
        2. Label all the children that are connected to the current child with
-       	  the length of the string summed with the current child's label
-       3. Label this child with a pink label.  This means he has been visited
+       	  the length of the string summed with the current child's
+       	  label, except if their existing label is lower than the new one.
+       3. Give this child with a pink label.  This means he has been visited
        4. If this was the ending child, stop
        5. Move to an unvisted child and go to step 2
 
@@ -60,9 +62,10 @@ Plan
    that if you double the number of children, it normally can take
    more than twice as long.
 
-1. New problem.  Jenny is a travelling saleswoman.  She is not trying
-   to find the shortest path between two places.  She wants to visit
-   every place and then return home in the shortest possible way.
+1. (Bonus) New problem.  Jenny is a travelling saleswoman.  She is not
+   trying to find the shortest path between two places.  She wants to
+   visit every place and then return home in the shortest possible
+   way.
 
 1. Tell them that there is no method for doing this, and that you
    really do have to try every possible path.  Discuss how much longer
