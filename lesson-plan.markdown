@@ -1,6 +1,5 @@
-% The Travelling Saleswoman
-% Cal Paterson
-% 23rd February 2013
+The Travelling Saleswoman
+=========================
 
 Materials
 ---------
